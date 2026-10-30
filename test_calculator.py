@@ -14,8 +14,8 @@ def test_summation(calculator):
 def test_difference(calculator):
     assert 4 == calculator.difference(8, 4)
 
-# def test_product(calculator):
-#     assert 12 == calculator.product(3, 4)
+def test_product(calculator):
+    assert 12 == calculator.product(3, 4)
 
-# def test_quotient(calculator):
-#     assert 2 == calculator.quotient(8, 4)
+def test_quotient(calculator):
+    assert 2 == calculator.quotient(8, 4)
